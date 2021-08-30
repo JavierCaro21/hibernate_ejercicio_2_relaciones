@@ -3,9 +3,9 @@
 ## 1 - Duplicamos el ejercicio 1 y cremos una nueva BD
 Nuevo proyecto y nueva base de datos
 
- - Duplicamos el ejercicio 1. Eliminamos los ficheros que no nos hagan falta
+ - Duplicamos el ejercicio 1. Eliminamos los ficheros que no nos hagan falta (Leer todas las instrucciones que vamos a realizar y código para saber qué no necesitaremos y qué sí)
    - Cremos un nuevo repositorio en gitHub y lo subimos
-   - Creamos una nueva BD `relaciones_hibernate` con las tablas `detalles_cliente` y `cliente` que tendrán una relación `1:1`
+ - Creamos una nueva BD `relaciones_hibernate` con las tablas `detalles_cliente` y `cliente` que tendrán una relación `1:1`
 
    ```sql
       create table detalles_cliente
@@ -145,7 +145,7 @@ Ahora crearemos las clases cliente y detalles cliente
    ```
 
 ### ¿Cómo Eliminar los detalles de un cliente sin eliminar el cliente?
-Este no lo vamos a hacer, pero qué pasa si no quiero que se elimine en cascada? Pues conforme hemos diseñado la base de datos no podemos, pero deberíamos de seguir los siguientes pasos:
+Este no lo vamos a hacer, pero qué pasa si no quiero que se elimine en cascada? Pues conforme hemos diseñado la base de datos no es posible, pero deberíamos de seguir los siguientes pasos:
 
    - Quitar de DetallesCliente lo de cascade
    
